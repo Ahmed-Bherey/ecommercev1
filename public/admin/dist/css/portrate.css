@@ -1,0 +1,575 @@
+:root{
+    --main: #F47F20;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font: 12pt "";
+    direction: rtl;
+}
+
+ :root {
+    --color-1: rgb(131 187 255);
+    --color-2: rgb(139 221 124);
+    --color-3: rgba(255, 220, 90, 0.75);
+    --color-4: rgb(253 105 0 / 92%);
+    --color-5: rgb(255 0 0 / 75%);
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.page {
+    width: 21.7cm;
+    min-height: 29cm;
+    padding: 1mm 1cm;;
+    margin: 1cm auto;
+    border: 2px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.subpage {
+    padding: 0.1cm;
+    border: 1px black solid;
+    height: 27cm;
+    outline: 1cm #Fff solid;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row>* {
+    flex-shrink: 0;
+    /* width: 100%;
+    max-width: 100%; */
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+
+/* start header*/
+
+.header-right p {
+    line-height: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-center img {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    margin-right: 116px;
+}
+
+.header-left p {
+    font-size: 14.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub-header {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.sub-header p {
+    margin: auto 50px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+/* end header*/
+
+td {
+    border: 1px solid black;
+}
+
+
+/* start contain*/
+
+
+/* end contain*/
+
+
+/* start footer*/
+
+.footer {
+    border-top: 2px solid black;
+}
+
+.footer-right p {
+    font-size: 11px;
+    text-align: right;
+    width: 130%;
+    font-weight: 600;
+}
+
+.footer-right {
+    margin-left: 0cm;
+}
+
+.footer-right span {
+    font-weight: bold;
+}
+
+.footer-left {
+    width: -10cm !important;
+    width: 2cm;
+}
+
+.footer-left p {
+    font-size: 12px;
+    text-align: left;
+    /* width: 40%; */
+    background: gray;
+    float: left;
+}
+
+
+/* end footer*/
+
+.rpt-contain {
+    height: 194mm;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* ===================== حضانه .hadana ===============================*/
+.hadana .estmara{
+    /* background-color: #eee; */
+    border-bottom: 3px solid;
+    /* padding-top: 28px; */
+}
+
+.hadana .person{
+    text-align: center;
+    font-size: 4rem;
+    color: var(--main);
+    margin: auto;
+}
+.hadana  .per{
+
+color: var(--main);
+
+text-align: center;
+
+margin: auto;
+}
+.hadana .per i{
+
+display: block;
+
+padding: 5px;
+
+font-size: 16px;
+}
+.hadana .per i span{
+    color: #000;
+    padding: 14px;
+    font-family: serif;
+    font-size: 4.5mm;
+}
+.hadana .kalam.col-9 {
+    padding: 2rem;
+}
+.hadana .kalam1 {
+    border: 1px solid;
+    width: 30%;
+    text-align: center;
+    padding: 12px;
+    background-color: #80808036;
+}
+.hadana .kal{
+    padding-top: 35px;
+}
+.hadana .kal .col-4 , .ico {
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    color: var(--main);
+}
+.hadana .kalam2 {
+    text-align: center;
+    margin: auto;
+}
+.hadana .kalam2 h2 {
+
+    font-size: 22px;
+}
+.hadana .kalam2 h3 {
+
+    width: 40%;
+    margin: auto;
+
+}
+
+/* sec2 */
+.sec2{
+padding-top: 1mm;
+padding-bottom: 0rem;
+border-bottom: 1mm solid;
+}
+
+ .sec2 .row label{
+width: 100%;
+font-size: 3.7mm;
+padding: 6px;
+border-radius: 6px;
+margin-bottom: 10px;
+font-weight: 700;
+font-family: inherit;
+}
+.hadana .sec2 .row input{
+text-align: center;
+width: 100%;
+border: 1px solid #736b6b;
+font-size: 20px;
+padding: 6px;
+border-radius: 20px;
+}
+
+/* sec3 */
+
+.hadana .table {
+text-align: center;
+border: 1px solid gray;
+}
+
+.hadana .table .gray th{
+background-color: gray;
+margin: 10px;
+}
+tbody, td, tfoot, th, thead, tr{
+    border: 1px solid;
+}
+td {
+    font-size: 20px;
+}
+.hadana .col-span{
+    font-weight: bold;
+}
+.hadana .sec3 .circle{
+text-align: center;
+margin: auto;
+border: 2px solid gray;
+border-radius: 6rem;
+padding: 10px;
+}
+.hadana .padd{
+margin-top: 3rem;
+}
+.hadana .sec4{
+    padding-top: 1mm;
+    width: 100%;
+}
+.hadana .sec5 h3{
+text-align: center;
+font-size: 4.7mm;
+}
+.hadana .sec5 p{
+text-align: center;
+}
+.hadana .header1{
+    display: flex;
+    align-items: center;
+    background-color: #000000cf;
+    border-radius: 7mm;
+    color: #fff;
+    /* padding: 6px 26px; */
+    padding: 0px;
+    margin-right: 3mm;
+}
+.hadana .header1 .color{
+background-color: var(--main);
+width: 10mm;
+height: 10mm;
+border-radius: 50%;
+position: absolute;
+}
+.hadana .header1 h3{
+padding-right: 14mm;
+font-size: 6mm;
+}
+.hadana .sec2 img{
+
+margin: auto;
+
+width: 55mm;
+}
+.hadana .footer{
+    border-top: none;
+}
+.hadana .row {
+    padding-bottom: 0 !important;
+}
+.hadana .footer i {
+    color: var(--main);
+}
+.hadana .footer  {
+    border-top: 1mm solid;
+    padding-top: 6mm;
+}
+
+/* مدرسه */
+/* estemara */
+.talab{
+
+font-size: 20px;
+
+color: #061879;
+
+font-weight: 700;
+
+padding: 0.5mm;
+}
+.estmara {
+    border-bottom: 1mm solid;
+}
+.estmara h3 {
+    font-size: 18px !important;
+}
+.estmara .image img{
+    width: 7rem;
+}
+.estmara .pp{
+    text-align: center;
+}
+.estmara .color{
+    color: var(--main)
+}
+.row{
+    padding-bottom: 2mm;
+    align-items: baseline
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box h3{
+    width: 100%;
+}
+.table{
+    margin-bottom: 1.5mm !important;
+}
+/* .header .color{
+    background-color: var(--main);
+    width: 11mm;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 10px;
+} */
+label{
+    font-weight: bold;
+    font-size: 4.7mm;
+}
+input#floatingInput {
+    border-radius: 5mm;
+}
+.bor{
+    border-bottom: 1mm solid;
+}
+.final {
+
+    margin-top: 3mm;
+    text-align: center;
+}
+.footer{
+    margin-top: 2mm;
+}
+.footer i{
+    color: var(--main);
+    font-size: 5mm;
+    padding-top: 1.5mm;
+    padding-left: 2mm;
+}
+
+.footer p{
+    font-size: 5mm;
+}
+/* تحويل */
+.bor h3{
+    font-size: 6mm;
+}
+.bottom .d-flex{
+    margin-bottom: -53px;
+}
+.header h3 {
+    text-align: center;
+    font-weight: bolder;
+}
+.drcount .footer{
+    border-top: none;
+}
+
+/* التحاق */
+td.w-15 {
+    width: 15%;
+  }
+  td.w-5 {
+    width: 3%;
+    /* transform: rotate(90deg); */
+    text-align: center;
+    /* justify-content: center; */
+    padding-top: 35px !important;
+    background-color: #df5521;
+    color: #fff;
+  }
+  td.w-30 {
+    width: 40%;
+  }
+  .w-80p {
+    width: 60px;
+  }
+  .w-24 {
+    width: 24%;
+  }
+  .w-10 {
+      width: 10%;
+    }
+    .w-20 {
+      width: 20%;
+      background-color: #df5521 !important;
+      color: #fff;
+      padding-top:28px
+    }
+    .w-40 {
+      width: 40%;
+    }
+  .age table{
+      text-align: center;
+  }
+  td.w-5.top {
+      padding-top: 35px !important;
+  }
+  td.w-20.top0 {
+      padding-top: 29px !important;
+  }
+  .father table{
+      text-align: center;
+  }
+
+  /* section4 */
+  h2{
+      font-weight: 700;
+      /* padding: 30px 0; */
+      font-size: 16px;
+  }
+  h2.red {
+      color: #DF5521;
+  }
+  h2.blue {
+      color: #061879;
+  }
+  .colorTR{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #df5521;
+    display: none;
+  }
+  tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border: 0.1mm solid #736b6b;
+}
+.talab {
+    color: #061879;
+    font-size: 6mm;
+    font-weight: bolder;
+}
+
+
+/* السحب */
+.end{
+  text-align: center;
+}
+
+
+  /* الفصل */
+  .fasl {
+    font-size: 3.7mm;
+  }
+  .fasl .table>:not(caption)>*>*{
+    padding: -0rem .5rem !important;
+    text-align: center;
+  }
+  .fasl .form-control{
+    padding: 0rem 0.75rem !important;
+    line-height: 1  !important;
+  }
+  .final .row.end h5 {
+    font-size: large;
+  }
+  .fasl .row{
+    padding-bottom: 0mm !important;
+  }
+  .fasl td.name {
+    width: 47%;
+}
+.fasl .estmara h3 {
+  font-size: 3.5mm !important;
+}
+.fasl .n_na{
+  width: 20%;
+}
+.fasl .row {
+    margin-bottom: -1.2mm !important;
+}
+ td {
+    font-size: 15px;
+    font-weight: bolder;
+}
+.fasl .footer{
+    border-top: 1mm solid !important;
+}
+.body-report p{
+    margin: 0 !important;
+}
+.footer .d-flex {
+    justify-content: space-around !important;
+}
+img{
+    width: 100% !important;
+}
+
+
+
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+        -webkit-print-color-adjust: exact;
+    }
+}
